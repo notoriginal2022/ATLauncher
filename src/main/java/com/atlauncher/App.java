@@ -261,7 +261,6 @@ public class App {
      * @param args all the arguments passed in from the command line
      */
     public static void main(String[] args) {
-        LogManager.info("Fuck niggers");
         PASSED_ARGS = args;
 
         // Parse all the command line arguments
