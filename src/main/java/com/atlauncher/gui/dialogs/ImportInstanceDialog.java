@@ -198,7 +198,7 @@ public class ImportInstanceDialog extends JDialog {
         addButton.addActionListener(e -> {
             if (AccountManager.getSelectedAccount() == null) {
                 DialogManager.okDialog().setTitle(GetText.tr("No Account Selected"))
-                    .setContent(GetText.tr("Cannot create instance as you have no account selected."))
+                    .setContent(GetText.tr("Cannot create instance as you have no account sd."))
                     .setType(DialogManager.ERROR).show();
 
                 if (AccountManager.getAccounts().isEmpty()) {
