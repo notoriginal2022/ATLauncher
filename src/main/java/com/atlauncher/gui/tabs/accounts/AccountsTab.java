@@ -297,7 +297,7 @@ public class AccountsTab extends HierarchyPanel implements Tab {
         });
         viewModel.onAccountsNamesChanged(accounts -> {
             accountsComboBox.removeAllItems();
-            accountsComboBox.addItem(new ComboItem<>(null, GetText.tr("Add An Account")));
+            accountsComboBox.addItem(new ComboItem<>(null, GetText.tr("Microsoft Account")));
             for (String account : accounts) {
                 accountsComboBox.addItem(new ComboItem<>(null, account));
             }
