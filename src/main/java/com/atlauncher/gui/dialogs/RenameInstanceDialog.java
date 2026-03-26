@@ -91,7 +91,7 @@ public class RenameInstanceDialog extends JDialog {
         gbc.gridy = 0;
         gbc.insets = UIConstants.LABEL_INSETS;
         gbc.anchor = GridBagConstraints.BASELINE_TRAILING;
-        JLabel instanceNameLabel = new JLabel(GetText.tr("Instance Name") + ": ");
+        JLabel instanceNameLabel = new JLabel(GetText.tr("Instance Nme") + ": ");
         middle.add(instanceNameLabel, gbc);
 
         gbc.gridx++;

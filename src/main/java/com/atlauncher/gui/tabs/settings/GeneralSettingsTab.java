@@ -172,7 +172,7 @@ public class GeneralSettingsTab extends AbstractSettingsTab {
         JComboBox<ComboItem<String>> instanceTitleFormat = new JComboBox<>();
 
         for (String format : viewModel.getInstanceTitleFormats()) {
-            instanceTitleFormat.addItem(new ComboItem<>(format, String.format(format, GetText.tr("Instance Name"),
+            instanceTitleFormat.addItem(new ComboItem<>(format, String.format(format, GetText.tr("Instance Nme"),
                     GetText.tr("Pack Name"), GetText.tr("Pack Version"), GetText.tr("Minecraft Version"))));
         }
 
